@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+    <style>
+    html, body {
+        margin: 0;
+        height: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url("stroitelstvo-1024x683.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+      }
+      .prof {
+        height: 100%; 
+          padding: 20px; 
+          box-sizing: border-box;
+          overflow: hidden;
+          background-color: white;
+          width: 250px;
+          float: left;
+      }
+      .prof a {
+          display: inline-flex;
+          color:cornflowerblue;          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 30px;
+          background-color: lavender;
+          border-radius: 25px;
+        }
+      .prof a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+      .Profile {
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color:cornflowerblue;
+          color:white;
+        }
+      .span {
+        position: relative;
+        top: 50px;
+        left: 6em;
+        float: left;
+        }
+      .span2 {
+          font-family: Arial, Helvetica, sans-serif;
+          display: inline-flex;
+          color:white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+          margin: 10px;
+          background-color:cornflowerblue;
+          border-radius: 25px;
+        }
+      .parent {
+          width: 400px;
+          height: fit-content;
+          padding: 5px;
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          right: 10em;
+          top: 40px;
+        }
+
+      </style>
+</head>
+<body>
+    <div class="Profile"><h1>Умный двор - Профиль</h1></div>
+    <div class="prof">
+    <h1><a href="Главная страница.html">Главная страница</a></h1>
+    <h1><a href="Мои заявки.html">Мои заявки</a></h1>
+    <h1><a href="Обращения от УК.html">Обращения от УК</a></h1>
+    </div>
+    <div class="span"><img src="avatardefault.jpg" align="left" width="40%" heigth="40%" alt="Фото"></div>
+    <div class="parent">
+      <div class="span2">ИМЯ</div>
+      <div class="span2">Фамилия</div>
+      <div class="span2">Отчество</div>
+      <div class="span2">Номер</div>
+      <div class="span2">Адрес</div>
+      <div class="span2">Почта</div>
+    </div>
+        
+</body>
+</html>
